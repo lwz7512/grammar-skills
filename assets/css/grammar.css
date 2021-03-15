@@ -1,0 +1,19 @@
+.logo-sm {
+  height: 64px;
+  width: auto;
+}
+
+.navbar-brand.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.choose-us-list {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.choose-us-li {
+  font-size: 1.25rem;
+  padding: .25rem;
+}
