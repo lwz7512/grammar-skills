@@ -13,7 +13,17 @@
   margin: 0 auto;
 }
 
+.join-us-list {
+  width: 54%;
+  margin: 0 auto;
+}
+
 .choose-us-li {
   font-size: 1.25rem;
   padding: .25rem;
+}
+
+.w3l-quote p.looking-for {
+  font-size: 1.25rem;
+  font-weight: 600;
 }
