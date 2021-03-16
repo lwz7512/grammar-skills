@@ -27,3 +27,18 @@
   font-size: 1.25rem;
   font-weight: 600;
 }
+
+.full-width-banner {
+  width: 100%;
+  height: auto;
+}
+
+.summer-programs-list li {
+  font-size: 1.25rem;
+  line-height: 1.8;
+}
+
+.font-gray {
+  color: #666;
+  line-height: 1.8;
+}
