@@ -46,3 +46,33 @@
 .w3l-contacts-12 .contact p {
   font-size: 16px;
 }
+
+.w3l-login .form-input select,
+.w3l-login .form-input input[type="email"],
+.w3l-login .form-input input[type="password"],
+.w3l-login .form-input input[type="text"],
+.w3l-login .form-input input[type="date"] {
+  background: #fff;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+  padding: 5px 10px;
+  color: var(--title-color);
+  -webkit-appearance: none;
+  border: 1px solid #eee;
+  border-radius: 4px; 
+}
+
+.w3l-login .form-inner-cont {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.w3l-blog a.btn-news {
+  color: var(--primary-darker);
+}
+
+.w3l-blog-single .w3l-text-style-17 .text-style-17_sur p.full-width {
+  max-width: 100%;
+}
