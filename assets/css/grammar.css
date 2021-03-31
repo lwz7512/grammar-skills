@@ -1,5 +1,12 @@
+/* homepage */
+
 .logo-sm {
   height: 64px;
+  width: auto;
+}
+
+.logo-md {
+  height: 72px;
   width: auto;
 }
 
@@ -21,6 +28,76 @@
 .choose-us-li {
   font-size: 1.25rem;
   padding: .25rem;
+}
+
+.choose-us-li::before {
+  content: "✔︎";
+  color: green;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+  position: relative;
+  left: -10px;
+}
+
+.w3l-testimonials .message {
+  padding: 2rem;
+}
+
+.w3l-testimonials .img-stretch-hight {
+  height: 100%;
+  width: auto;
+}
+
+.w3l-testimonials .message p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.w3l-footer-29-main .footer-29 {
+  background-color: #218838;
+}
+
+.w3l-footer-29-main h6.footer-title-29 {
+  color: white;
+}
+
+/* about page */
+
+.w3l-about1 .cwp23-title h3 {
+  margin-bottom: 20px;
+}
+
+.w3l-about1 .cwp23-text-cols {
+  grid-gap: 20px;
+}
+
+.w3l-about1 .column span {
+  margin-bottom: 10px;
+}
+
+.w3l-about1 .cwp23-text-cols p {
+  font-size: 15px;
+}
+
+.w3l-team .box16 .social {
+  display: block;
+  height: 150px;
+}
+
+.vgs-teach {
+  text-align: center;
+}
+
+.vgs-teach h3 {
+  color: var(--title-color);
+  font-size: 2.5em;
+  font-weight: 600; 
+}
+
+.vgs-teach p {
+  font-weight: 600;
 }
 
 .w3l-quote p.looking-for {
