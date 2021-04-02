@@ -172,3 +172,12 @@
 .w3l-blog-single .w3l-text-style-17 .text-style-17_sur p.full-width {
   max-width: 100%;
 }
+
+@media (max-width: 500px) {
+
+  .logo-md {
+    width: 260px;
+    height: auto;
+  }
+
+}
