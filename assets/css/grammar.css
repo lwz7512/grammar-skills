@@ -30,7 +30,8 @@
   padding: .25rem;
 }
 
-.choose-us-li::before {
+.choose-us-li::before, 
+.mark-li::before {
   content: "✔︎";
   color: green;
   font-weight: bold;
@@ -56,11 +57,21 @@
 }
 
 .w3l-footer-29-main .footer-29 {
-  background-color: #218838;
+  /* background-color: #218838; */
+  background-color: #D5E9E2;
 }
 
 .w3l-footer-29-main h6.footer-title-29 {
-  color: white;
+  /* color: white; */
+  color: #218838;
+}
+
+.w3l-footer-29-main .footer-list-29 p {
+  color: #0c6246;
+}
+
+.w3l-footer-29-main .footer-list-29 ul li a {
+  color: #0c6246;
 }
 
 /* about page */
@@ -104,6 +115,13 @@
   font-size: 1.25rem;
   font-weight: 600;
 }
+
+/* courses page */
+
+.w3l-blog .list-view .grids5-info h4 a {
+  text-overflow: unset;
+}
+
 
 .full-width-banner {
   width: 100%;
