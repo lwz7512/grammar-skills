@@ -121,6 +121,7 @@
 .w3l-blog .list-view .grids5-info h4 a {
   text-overflow: unset;
   font-size: 21px;
+  white-space: normal;
 }
 
 
