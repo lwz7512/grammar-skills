@@ -174,11 +174,20 @@
   max-width: 100%;
 }
 
+.gallery-img.video {
+  height: 480px;
+}
+
 @media (max-width: 500px) {
 
   .logo-md {
     width: 260px;
     height: auto;
   }
+
+  .gallery-img.video {
+    height: 240px;
+  }
+  
 
 }
