@@ -176,6 +176,7 @@
 
 .gallery-img.video {
   height: 480px;
+  display: block;
 }
 
 @media (max-width: 500px) {
@@ -187,6 +188,7 @@
 
   .gallery-img.video {
     height: 240px;
+    display: block;
   }
   
 
