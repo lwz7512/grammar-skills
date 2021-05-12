@@ -94,7 +94,7 @@
 			<div class="header-section text-center">
 				<h3 class="mb-md-5 mb-4">We'd love to hear from you!
 			</div>
-			<form action="https://sendmail.w3layouts.com/submitForm" method="post" class="">
+			<form name="contact" method="POST" class="signin-form" netlify>
 				<div class="main-input">
 					<input type="text" name="w3lName" placeholder="Enter your name" class="contact-input" required="" />
 					<input type="email" name="w3lSender" placeholder="Enter your mail" class="contact-input" required="" />
@@ -102,7 +102,7 @@
 					<textarea class="contact-textarea contact-input" name="w3lMessage" placeholder="Enter your message" required=""></textarea>
 				</div>
 				<div class="text-left">
-					<button class="btn-secondary btn theme-button">Send</button>
+					<button type="submit" class="btn-success btn theme-button">Send</button>
 				</div>
 			</form>
 		</div>
